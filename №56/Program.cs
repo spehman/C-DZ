@@ -6,6 +6,7 @@
 
 Console.WriteLine("введите размер квадратного массива");
 int massVol = Convert.ToInt32(Console.ReadLine());
+// int[,] numbers = { { 0, 0, 0, 0 }, { 1, 1, 1, 1 }, { 2, 2, 2, 2 }, { -1, 0, 0, 0 } };
 int[,] numbers = new int[massVol, massVol];
 FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
